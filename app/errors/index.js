@@ -1,7 +1,7 @@
-const CustomAPIErrors = require("./custom-error");
 const BadRequest = require("./bad-request");
+const UnAuthenticatedError = require("./unauthenticated");
 
 module.exports = {
-  CustomAPIErrors,
   BadRequest,
+  UnAuthenticatedError,
 };
