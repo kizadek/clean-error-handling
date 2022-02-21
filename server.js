@@ -13,7 +13,7 @@ app.use(express.json()); // json passer
 app.use(morgan("dev"));
 
 //mount routes
-
+app.use("/api/v1/", require("./app/routes/routes"));
 //errors
 app.use(errorHandleMiddleware);
 app.use(notFoundMiddleware);
