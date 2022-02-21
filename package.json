@@ -1,0 +1,31 @@
+{
+  "name": "clean-error-handling",
+  "version": "1.0.0",
+  "description": "a clean error handling with express and",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kizadek/clean-error-handling.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kizadek/clean-error-handling/issues"
+  },
+  "homepage": "https://github.com/kizadek/clean-error-handling#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "express": "^4.17.3",
+    "express-async-errors": "^3.1.1",
+    "http-status-codes": "^2.2.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
