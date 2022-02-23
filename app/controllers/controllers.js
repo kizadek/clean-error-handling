@@ -8,6 +8,11 @@ const getController = (req, res, next) => {
   });
 };
 
+const get = (req, res, next) => {
+  res.status(StatusCodes.OK).send(`,getSome`);
+};
+
 module.exports = {
   getController,
+  get,
 };
